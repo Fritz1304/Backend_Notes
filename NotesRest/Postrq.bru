@@ -1,0 +1,18 @@
+meta {
+  name: Postrq
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:3001/api/notes
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "content": "Posstman and Bruno are good in testing backend",
+    "important": true
+  }
+}
