@@ -1,0 +1,11 @@
+# Ignorar archivos .log
+*.log
+
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Ignorar archivos temporales de macOS
+.DS_Store
+
+
+.env
